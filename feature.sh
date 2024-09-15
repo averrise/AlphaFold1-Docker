@@ -3,7 +3,7 @@
 TARGET="T1019s2"
 TARGET_DIR="test_data"
 TARGET_SEQ="${TARGET_DIR}/${TARGET}.seq" # fasta format
-PLMDCA_DIR="plmDCA/plmDCA_asymmetric_v2/"
+PLMDCA_DIR="/plmDCA_asymmetric_v3/"
 
 # generate domain crops from target seq
 python feature.py -s $TARGET_SEQ -c
